@@ -1,0 +1,15 @@
+[package]
+name = "bcs"
+version = "0.1.0"
+edition = "2024"
+authors = ["static_noise"]
+
+[[bin]]
+name = "bcs"
+path = "src/bin/bcs.rs"
+
+[[bin]]
+name = "bcsd"
+path = "src/bin/bcsd.rs"
+
+[dependencies]
